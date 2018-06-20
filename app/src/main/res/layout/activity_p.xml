@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BDBDBD"
+        android:orientation="vertical"
+        tools:context="com.example.rootyasmeen.FCI_Learn.Control_instructor">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/textview"
+            android:padding="20dp"
+            android:text="Choose Subject Name\nAnd Type Of Question"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Spinner
+            android:id="@+id/spin_subject"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/subject">
+
+        </Spinner>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/write_post"
+                android:layout_width="120dp"
+                android:layout_height="59dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button1"
+                android:padding="10dp"
+                android:text="Write Post"
+                android:textAllCaps="false"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <Button
+                android:id="@+id/view_posts"
+                android:layout_width="117dp"
+                android:layout_height="58dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button1"
+                android:padding="10dp"
+                android:text="View Posts"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="138dp"
+                tools:layout_editor_absoluteY="249dp" />
+
+            <Button
+                android:id="@+id/show_result"
+                android:layout_width="113dp"
+                android:layout_height="62dp"
+                android:background="@drawable/button1"
+                android:padding="10dp"
+                android:text="Show Result"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="226dp"
+                tools:layout_editor_absoluteY="337dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button1"
+            android:padding="10dp"
+            android:text="Upload Files"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="337dp" />
+    </LinearLayout>
+</ScrollView>

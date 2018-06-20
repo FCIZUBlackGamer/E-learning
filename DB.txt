@@ -1,0 +1,38 @@
+create table organizational_behavior_tf (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, answer varchar(5) not null);
+
+create table english_tf (id int primary key AUTO_INCREMENT PRIMARY KEY , quuestion varchar(255) not null, answer varchar(5) not null);
+
+create table physics_tf (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, answer varchar(5) not null);
+
+create table introduction_to_computer_tf (id int primary key AUTO_INCREMENT PRIMARY KEY , quuestion varchar(255) not null, answer varchar(5) not null);
+
+create table statistics_tf (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, answer varchar(5) not null);
+
+create table mathematics_tf (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, answer varchar(5) not null);
+
+create table organizational_behavior_choice (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, answer1 varchar(225) not null, answer2 varchar(225) not null, answer3 varchar(225) not null, answer4 varchar(225) not null);
+
+create table english_choice (id int primary key AUTO_INCREMENT PRIMARY KEY , quuestion varchar(255) not null, answer1 varchar(225) not null, answer2 varchar(225) not null, answer3 varchar(225) not null, answer4 varchar(225) not null);
+
+create table physics_choice (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, answer1 varchar(225) not null, answer2 varchar(225) not null, answer3 varchar(225) not null, answer4 varchar(225) not null);
+
+create table introduction_to_computer_choice (id int primary key AUTO_INCREMENT PRIMARY KEY , quuestion varchar(255) not null, answer1 varchar(225) not null, answer2 varchar(225) not null, answer3 varchar(225) not null, answer4 varchar(225) not null);
+
+create table statistics_choice (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, answer1 varchar(225) not null, answer2 varchar(225) not null, answer3 varchar(225) not null, answer4 varchar(225) not null);
+
+
+create table mathematics_choice (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, answer1 varchar(225) not null, answer2 varchar(225) not null, answer3 varchar(225) not null, answer4 varchar(225) not null);
+
+create table organizational_behavior_assay (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, keywords varchar(225) not null);
+
+create table english_assay (id int primary key AUTO_INCREMENT PRIMARY KEY , quuestion varchar(255) not null, keywords varchar(225) not null);
+
+
+create table physics_assay (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, keywords varchar(225) not null);
+
+create table introduction_to_computer_assay (id int primary key AUTO_INCREMENT PRIMARY KEY , quuestion varchar(255) not null, keywords varchar(225) not null);
+
+create table statistics_assay (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, keywords varchar(225) not null);
+
+create table mathematics_assay (id int primary key AUTO_INCREMENT PRIMARY KEY, quuestion varchar(255) not null, keywords varchar(225) not null);
+

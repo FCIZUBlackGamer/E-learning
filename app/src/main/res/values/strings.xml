@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FCI Learn</string>
+    <string-array name="subject">
+        <item>Organizational Behavior</item>
+        <item>English</item>
+        <item>Physics</item>
+        <item>Introduction to Computer</item>
+        <item>Statistics</item>
+        <item>Mathematics</item>
+    </string-array>
+
+    <string-array name="user">
+        <item>Instructor</item>
+        <item>Student</item>
+    </string-array>
+</resources>

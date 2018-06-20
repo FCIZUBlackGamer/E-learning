@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rootyasmeen.FCI_Learn.Get_tf_question_from_instructor">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Questions"
+        android:id="@+id/tf_reset"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.Switch"
+        android:text="Num"
+        android:id="@+id/QuestionNum_tf"/>
+    <EditText
+        android:id="@+id/get_tf_question"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter the questions here"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textview1"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_tf_ans">
+        <RadioButton
+            android:id="@+id/true1"
+            android:text="True"
+            android:textSize="10pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/false1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="False"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/tf_confirm"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/tf_next"/>
+</LinearLayout>

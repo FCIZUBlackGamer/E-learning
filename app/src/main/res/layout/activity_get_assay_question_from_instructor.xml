@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rootyasmeen.FCI_Learn.Get_assay_question_from_instructor">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Questions"
+        android:id="@+id/assay_reset"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.Switch"
+        android:text="Num"
+        android:id="@+id/QuestionNum_assay"/>
+    <EditText
+        android:id="@+id/question3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter the question here"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textview1"/>
+
+    <EditText
+        android:id="@+id/answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter key words here Separated by end line"
+        android:textStyle="bold"
+        android:inputType="textMultiLine"
+        android:padding="15dp"
+        android:lines="4"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/confirm_assay"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Next_assay"
+        android:text="Finished and Continue"/>
+</LinearLayout>
